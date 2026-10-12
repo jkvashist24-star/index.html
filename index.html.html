@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aryan's Market | Home Decor</title>
+<style>
+:root{--ink:#29271f;--muted:#777468;--paper:#fbf8f2;--card:#fffdf9;--line:#e8e0d4;--accent:#53644b;--accent2:#dce5d3;--warm:#eee3d4;--danger:#a34436;--shadow:0 12px 32px #392a1610}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer;border:0;border-radius:12px;padding:10px 14px;background:var(--accent);color:white;font-weight:650}button.secondary{background:#f0ece4;color:var(--ink);border:1px solid var(--line)}button.danger{background:#a34436}button.small{padding:7px 10px;font-size:13px}input,select,textarea{width:100%;border:1px solid var(--line);border-radius:10px;background:white;padding:10px;color:var(--ink)}label{display:block;font-size:13px;font-weight:650;margin:9px 0 5px}.muted{color:var(--muted)}.tiny{font-size:12px}.topbar{position:sticky;top:0;z-index:5;background:#fbf8f2ee;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{max-width:1180px;margin:auto;padding:13px 20px;display:flex;align-items:center;gap:16px;justify-content:space-between}.brand{font-family:Georgia,serif;font-size:23px;font-weight:bold;letter-spacing:-.7px}.brand span{color:var(--accent)}.navlinks{display:flex;gap:8px;flex-wrap:wrap}.navlinks button{background:transparent;color:var(--ink);border:1px solid transparent}.navlinks button.active,.navlinks button:hover{background:var(--accent2)}main{max-width:1180px;margin:auto;padding:26px 20px 60px}.hero{border-radius:24px;padding:clamp(25px,5vw,58px);background:linear-gradient(115deg,#e8e5d7,#f2e6d7 60%,#e0e6d8);display:grid;grid-template-columns:1.2fr .8fr;gap:25px;align-items:center;overflow:hidden}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:11px;font-weight:800;color:var(--accent)}h1,h2,h3,p{margin-top:0}h1{font:clamp(35px,5vw,60px)/1.03 Georgia,serif;letter-spacing:-1.7px;margin:12px 0 18px}h2{font:clamp(25px,3vw,34px) Georgia,serif;letter-spacing:-.5px;margin-bottom:8px}h3{margin-bottom:8px}.hero p{max-width:520px;color:#5f6053}.hero-art{min-height:210px;display:grid;place-items:center}.hero-art .circle{width:min(100%,290px);aspect-ratio:1;border-radius:50%;background:#c7d0b8;display:grid;place-items:center;font-size:100px;box-shadow:inset -16px -20px 0 #8e9c7a55}.section-head{display:flex;justify-content:space-between;align-items:end;gap:15px;margin:32px 0 16px}.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.toolbar input{max-width:300px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.product{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}.photo{position:relative;aspect-ratio:4/3;background:#f0e8db;display:grid;place-items:center;overflow:hidden;cursor:zoom-in}.photo img{width:100%;height:100%;object-fit:cover;display:block}.photo .placeholder{font-size:70px}.photo .zoomtag{position:absolute;bottom:10px;right:10px;background:#fffdf0dc;border-radius:20px;padding:5px 9px;font-size:11px}.product-body{padding:15px;display:flex;flex-direction:column;gap:8px;flex:1}.product-body h3{font:21px Georgia,serif;margin:0}.price{font-weight:800;font-size:20px}.product-foot{display:flex;gap:8px;margin-top:auto;padding-top:7px}.product-foot button{flex:1}.stock{font-size:12px;color:var(--muted)}.pill{display:inline-flex;align-items:center;border-radius:30px;background:var(--accent2);color:#34452f;padding:4px 9px;font-size:11px;font-weight:750}.notice{padding:13px 15px;border:1px solid #dfd4bd;background:#f7f0e2;border-radius:12px;color:#64583e;font-size:13px;margin:18px 0}.hidden{display:none!important}.panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:var(--shadow)}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}.stat{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:16px}.stat .value{font:26px Georgia,serif;margin-top:5px;overflow-wrap:anywhere}.two-col{display:grid;grid-template-columns: minmax(0,1fr) minmax(0,1fr);gap:18px}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}.span2{grid-column:1/-1}.tablewrap{overflow:auto}table{width:100%;border-collapse:collapse;min-width:620px}th,td{text-align:left;padding:11px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}.empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px}.row-actions{display:flex;gap:6px;flex-wrap:wrap}.order-card{border:1px solid var(--line);border-radius:13px;padding:14px;margin-top:12px}.order-top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.order-top strong{font-size:16px}.modal{position:fixed;inset:0;z-index:20;background:#171710eF;display:flex;align-items:center;justify-content:center;padding:18px}.modal img{max-width:94vw;max-height:86vh;object-fit:contain;border-radius:8px}.modal .close{position:absolute;top:16px;right:16px;background:white;color:#222;font-size:22px;padding:8px 14px}.footer{border-top:1px solid var(--line);padding:22px 20px;text-align:center;color:var(--muted);font-size:12px}.tabtitle{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.filehint{font-size:12px;color:var(--muted);margin-top:5px}
+@media(max-width:800px){.hero{grid-template-columns:1fr}.hero-art{min-height:120px}.hero-art .circle{width:145px;font-size:55px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.two-col{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}.navlinks{width:100%}}
+@media(max-width:500px){main{padding:18px 13px 45px}.grid{grid-template-columns:1fr}.formgrid{grid-template-columns:1fr}.span2{grid-column:auto}.section-head{align-items:flex-start;flex-direction:column}.hero{padding:25px}.nav{padding:12px 14px}.brand{font-size:21px}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="nav">
+    <div class="brand">Aryan's <span>Market</span></div>
+    <div class="navlinks">
+      <button id="nav-store" class="active" onclick="showPage('store')">Shop</button>
+      <button id="nav-seller" onclick="showPage('seller')">Seller dashboard</button>
+    </div>
+  </div>
+</header>
+<main>
+<section id="storePage">
+  <div class="hero">
+    <div>
+      <div class="eyebrow">Small details, warmer homes</div>
+      <h1>Make your space<br>feel like you.</h1>
+      <p>Thoughtful home accents and aesthetic décor to make every corner feel special.</p>
+      <button onclick="document.getElementById('productsSection').scrollIntoView({behavior:'smooth'})">Explore collection ↘</button>
+      <div class="tiny muted" style="margin-top:12px">Independent starter store · Order requests confirmed by the seller</div>
+    </div>
+    <div class="hero-art"><div class="circle" aria-label="decorative plant illustration">🪴</div></div>
+  </div>
+  <div class="notice">Demo store: products and prices are examples until you replace them. Orders are requests, not confirmed purchases. Check availability and delivery charges with the seller before paying.</div>
+  <div class="section-head" id="productsSection">
+    <div><div class="eyebrow">Curated for your home</div><h2>Shop the collection</h2><div class="muted">Find a little something for your favourite corner.</div></div>
+    <div class="toolbar"><input id="searchBox" placeholder="Search décor..." oninput="renderProducts()"><select id="sortBox" onchange="renderProducts()" style="width:auto"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select></div>
+  </div>
+  <div id="productGrid" class="grid"></div>
+  <div id="storeEmpty" class="empty hidden">No products match your search yet.</div>
+</section>
+
+<section id="sellerPage" class="hidden">
+  <div class="tabtitle"><div><div class="eyebrow">Store management</div><h2>Seller dashboard</h2><p class="muted">Manage products, order requests, and your estimated profit.</p></div><span class="pill">Local demo mode</span></div>
+  <div class="notice"><strong>Important:</strong> this dashboard is not password-protected and saves data only in this browser. Do not put real customer information on a public shared computer. For a live shop, use a properly secured backend and have a parent or guardian help with payment accounts and legal/business requirements.</div>
+  <div class="stats">
+    <div class="stat"><div class="muted tiny">Products listed</div><div class="value" id="statProducts">0</div></div>
+    <div class="stat"><div class="muted tiny">Order requests</div><div class="value" id="statOrders">0</div></div>
+    <div class="stat"><div class="muted tiny">Recorded sales</div><div class="value" id="statSales">₹0</div></div>
+    <div class="stat"><div class="muted tiny">Estimated profit</div><div class="value" id="statProfit">₹0</div></div>
+  </div>
+  <div class="two-col">
+    <div class="panel">
+      <h3 id="productFormTitle">Add a product</h3>
+      <form id="productForm">
+        <input type="hidden" id="editId">
+        <div class="formgrid">
+          <div class="span2"><label for="pTitle">Product title *</label><input id="pTitle" required maxlength="90" placeholder="e.g. Aesthetic wall hanging"></div>
+          <div><label for="pPrice">Selling price (₹) *</label><input id="pPrice" type="number" min="0" step="0.01" required placeholder="185"></div>
+          <div><label for="pCost">Supplier cost (₹)</label><input id="pCost" type="number" min="0" step="0.01" value="0"></div>
+          <div><label for="pStock">Stock quantity</label><input id="pStock" type="number" min="0" step="1" value="1"></div>
+          <div><label for="pCategory">Category</label><select id="pCategory"><option>Wall décor</option><option>Lighting</option><option>Plants & vases</option><option>Room accessories</option><option>Other home décor</option></select></div>
+          <div class="span2"><label for="pDesc">Description</label><textarea id="pDesc" rows="2" maxlength="500" placeholder="Materials, size, colour, and other details"></textarea></div>
+          <div class="span2"><label for="pImage">Product image</label><input id="pImage" type="file" accept="image/*"><div class="filehint">Choose an image from your device. Keep images reasonably small; they are stored in this browser.</div><div id="imageStatus" class="tiny muted"></div></div>
+        </div>
+        <div class="toolbar" style="margin-top:14px"><button type="submit">Save product</button><button type="button" class="secondary" onclick="resetProductForm()">Clear form</button></div>
+      </form>
+    </div>
+    <div class="panel">
+      <div class="tabtitle"><h3>Store settings</h3><span class="pill">WhatsApp orders</span></div>
+      <label for="waNumber">WhatsApp number</label>
+      <input id="waNumber" placeholder="India: 91 followed by your number" inputmode="numeric">
+      <div class="filehint">Enter country code + number using digits only, e.g. 91XXXXXXXXXX. Use a number managed by you and your parent/guardian.</div>
+      <label for="storeName">Store name</label><input id="storeName" value="Aryan's Market">
+      <button style="margin-top:12px" onclick="saveSettings()">Save settings</button>
+      <hr style="border:0;border-top:1px solid var(--line);margin:20px 0">
+      <h3>Data backup</h3><p class="muted tiny">Export a JSON backup periodically. It contains product records, order requests, and settings; keep it private.</p>
+      <div class="toolbar"><button class="secondary" onclick="exportData()">Export backup</button><label class="secondary" style="display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);padding:8px 10px;border-radius:10px;margin:0;cursor:pointer">Import backup<input id="importFile" type="file" accept=".json,application/json" style="display:none" onchange="importData(event)"></label></div>
+      <p class="tiny muted" id="backupStatus"></p>
+    </div>
+  </div>
+  <div class="panel" style="margin-top:18px">
+    <div class="tabtitle"><h3>Your products</h3><button class="secondary small" onclick="renderSeller()">Refresh list</button></div>
+    <div id="sellerProducts"></div>
+  </div>
+  <div class="panel" style="margin-top:18px">
+    <div class="tabtitle"><h3>Order management</h3><select id="orderFilter" onchange="renderOrders()" style="max-width:190px"><option value="all">All orders</option><option>New</option><option>Confirmed</option><option>Shipped</option><option>Completed</option><option>Cancelled</option></select></div>
+    <div id="ordersList"></div>
+  </div>
+  <div class="panel" style="margin-top:18px">
+    <h3>Profit tracker</h3>
+    <p class="muted tiny">Profit is estimated from orders marked Completed, using the product cost saved on each order plus the delivery/other cost entered below. Keep supplier costs up to date. This is a basic record, not accounting or tax advice.</p>
+    <div class="stats">
+      <div class="stat"><div class="muted tiny">Completed sales</div><div class="value" id="profitSales">₹0</div></div>
+      <div class="stat"><div class="muted tiny">Product costs</div><div class="value" id="profitCosts">₹0</div></div>
+      <div class="stat"><div class="muted tiny">Other expenses</div><div class="value" id="profitExpenses">₹0</div></div>
+      <div class="stat"><div class="muted tiny">Estimated profit</div><div class="value" id="profitNet">₹0</div></div>
+    </div>
+    <label for="extraCosts">Other expenses total (₹) — delivery subsidy, packaging, fees, returns, etc.</label>
+    <div class="toolbar"><input id="extraCosts" type="number" min="0" step="0.01" value="0" style="max-width:220px"><button onclick="saveExpenses()">Save expenses</button></div>
+  </div>
+</section>
+</main>
+<footer class="footer">Aryan's Market · A starter shop for thoughtful home décor<br>Only list products you can supply, and confirm all order details before accepting payment.</footer>
+
+<div id="imageModal" class="modal hidden" role="dialog" aria-modal="true" aria-label="Full-screen product image" onclick="closeImage(event)">
+  <button class="close" onclick="closeImage()">× Close</button><img id="modalImage" alt="Full-size product">
+</div>
+
+<script>
+const KEY='aryansMarket_v1';
+const money=n=>'₹'+(Number(n)||0).toLocaleString('en-IN',{maximumFractionDigits:2});
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const starter=[
+{id:'p1',title:'Aesthetic Wall Hanging',price:185,cost:100,stock:5,category:'Wall décor',desc:'A simple decorative accent for a cosy, curated home.',image:'',created:1},
+{id:'p2',title:'Ceramic Style Vase',price:299,cost:160,stock:4,category:'Plants & vases',desc:'A neutral-toned accent for shelves, desks, or side tables.',image:'',created:2},
+{id:'p3',title:'Warm Ambient Fairy Lights',price:249,cost:130,stock:6,category:'Lighting',desc:'Add a gentle warm glow to your favourite corner.',image:'',created:3}
+];
+let db=loadDB();
+function loadDB(){try{const x=JSON.parse(localStorage.getItem(KEY));if(x&&Array.isArray(x.products)&&Array.isArray(x.orders))return x}catch(e){}return {products:starter,orders:[],settings:{wa:'',name:"Aryan's Market"},expenses:0,nextOrder:1};}
+function persist(){try{localStorage.setItem(KEY,JSON.stringify(db));return true}catch(e){alert('Browser storage is full. Try smaller images or export your backup and remove unused images.');return false}}
+function showPage(page){document.getElementById('storePage').classList.toggle('hidden',page!=='store');document.getElementById('sellerPage').classList.toggle('hidden',page!=='seller');document.getElementById('nav-store').classList.toggle('active',page==='store');document.getElementById('nav-seller').classList.toggle('active',page==='seller');if(page==='seller'){document.getElementById('waNumber').value=db.settings.wa||'';document.getElementById('storeName').value=db.settings.name||"Aryan's Market";document.getElementById('extraCosts').value=db.expenses||0;renderSeller()}else renderProducts();window.scrollTo({top:0,behavior:'smooth'})}
+function renderProducts(){const q=(document.getElementById('searchBox').value||'').toLowerCase();let list=db.products.filter(p=>(p.title+' '+p.desc+' '+p.category).toLowerCase().includes(q));const sort=document.getElementById('sortBox').value;if(sort==='low')list.sort((a,b)=>a.price-b.price);if(sort==='high')list.sort((a,b)=>b.price-a.price);const grid=document.getElementById('productGrid');grid.innerHTML=list.map(p=>`<article class="product"><div class="photo" onclick="openImage('${p.id}')" role="button" tabindex="0" aria-label="View ${esc(p.title)} full screen">${p.image?`<img src="${p.image}" alt="${esc(p.title)}">`:`<div class="placeholder">${p.category==='Lighting'?'💡':p.category==='Plants & vases'?'🏺':'🪴'}</div>`}<span class="zoomtag">↗ View image</span></div><div class="product-body"><span class="pill">${esc(p.category)}</span><h3>${esc(p.title)}</h3><div class="price">${money(p.price)}</div><div class="muted tiny">${esc(p.desc||'A lovely home décor accent.')}</div><div class="stock">${p.stock>0?`${p.stock} available`:'Currently unavailable'}</div><div class="product-foot"><button ${p.stock<=0?'disabled':''} onclick="orderProduct('${p.id}')">Order on WhatsApp</button></div></div></article>`).join('');document.getElementById('storeEmpty').classList.toggle('hidden',list.length>0)}
+function openImage(id){const p=db.products.find(x=>x.id===id);if(!p)return;if(!p.image){alert('No photo has been uploaded for this product yet. Add one in Seller dashboard.');return}document.getElementById('modalImage').src=p.image;document.getElementById('imageModal').classList.remove('hidden')}
+function closeImage(e){if(!e||e.target.id==='imageModal'||e.target.classList.contains('close'))document.getElementById('imageModal').classList.add('hidden')}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')document.getElementById('imageModal').classList.add('hidden')});
+function orderProduct(id){const p=db.products.find(x=>x.id===id);if(!p||p.stock<1)return;const qtyText=prompt('How many would you like to request? Available: '+p.stock,'1');if(qtyText===null)return;const qty=Number(qtyText);if(!Number.isInteger(qty)||qty<1||qty>p.stock){alert('Please enter a whole number within the available stock.');return}const note=prompt('Optional note (colour, delivery area, or question):','')||'';const order={id:'AM-'+String(db.nextOrder++).padStart(4,'0'),productId:p.id,title:p.title,price:Number(p.price),cost:Number(p.cost)||0,qty,customerNote:note,status:'New',created:new Date().toISOString(),otherCost:0};db.orders.unshift(order);persist();renderSeller();const phone=(db.settings.wa||'').replace(/\D/g,'');const msg=`Hello ${db.settings.name||"Aryan's Market"}, I'd like to request an order:\nOrder reference: ${order.id}\nProduct: ${p.title}\nQuantity: ${qty}\nListed price: ${money(p.price)} each\nEstimated item total: ${money(p.price*qty)}\nNote: ${note||'None'}\nPlease confirm availability, final delivery charges, delivery time, and payment details before I pay.`;if(phone.length>=10){window.open('https://wa.me/'+phone+'?text='+encodeURIComponent(msg),'_blank','noopener')}else{navigator.clipboard?.writeText(msg).catch(()=>{});alert('Order request saved as '+order.id+'. Add your WhatsApp number in Seller dashboard. Your order message is:\\n\\n'+msg)}}
+function renderSeller(){renderSellerProducts();renderOrders();updateStats()}
+function renderSellerProducts(){const root=document.getElementById('sellerProducts');if(!db.products.length){root.innerHTML='<div class="empty">No products yet. Add your first product above.</div>';return}root.innerHTML='<div class="tablewrap"><table><thead><tr><th>Product</th><th>Price</th><th>Cost</th><th>Stock</th><th>Actions</th></tr></thead><tbody>'+db.products.map(p=>`<tr><td><strong>${esc(p.title)}</strong><div class="tiny muted">${esc(p.category)}</div></td><td>${money(p.price)}</td><td>${money(p.cost)}</td><td>${p.stock}</td><td><div class="row-actions"><button class="small secondary" onclick="editProduct('${p.id}')">Edit</button><button class="small danger" onclick="deleteProduct('${p.id}')">Delete</button></div></td></tr>`).join('')+'</tbody></table></div>'}
+document.getElementById('productForm').addEventListener('submit',async e=>{e.preventDefault();const id=document.getElementById('editId').value;const old=db.products.find(p=>p.id===id);let image=old?.image||'';const file=document.getElementById('pImage').files[0];if(file){if(!file.type.startsWith('image/')){alert('Please choose an image file.');return}if(file.size>1.5*1024*1024){alert('Please choose an image smaller than 1.5 MB to help browser storage work.');return}try{image=await resizeImage(file)}catch(err){alert('Could not read that image. Try another image.');return}}const p={id:id||'p'+Date.now(),title:document.getElementById('pTitle').value.trim(),price:Number(document.getElementById('pPrice').value),cost:Number(document.getElementById('pCost').value)||0,stock:Math.max(0,Math.floor(Number(document.getElementById('pStock').value)||0)),category:document.getElementById('pCategory').value,desc:document.getElementById('pDesc').value.trim(),image,created:old?.created||Date.now()};if(!p.title||p.price<0){alert('Add a product title and valid price.');return}if(old)db.products=db.products.map(x=>x.id===id?p:x);else db.products.unshift(p);if(!persist())return;resetProductForm();renderSeller();renderProducts();alert(old?'Product updated.':'Product added.')});
+function resizeImage(file){return new Promise((resolve,reject)=>{const reader=new FileReader();reader.onerror=reject;reader.onload=()=>{const img=new Image();img.onerror=reject;img.onload=()=>{const max=1100,scale=Math.min(1,max/Math.max(img.width,img.height)),canvas=document.createElement('canvas');canvas.width=Math.round(img.width*scale);canvas.height=Math.round(img.height*scale);canvas.getContext('2d').drawImage(img,0,0,canvas.width,canvas.height);resolve(canvas.toDataURL('image/jpeg',.82))};img.src=reader.result};reader.readAsDataURL(file)})}
+function editProduct(id){const p=db.products.find(x=>x.id===id);if(!p)return;document.getElementById('editId').value=p.id;document.getElementById('pTitle').value=p.title;document.getElementById('pPrice').value=p.price;document.getElementById('pCost').value=p.cost;document.getElementById('pStock').value=p.stock;document.getElementById('pCategory').value=p.category;document.getElementById('pDesc').value=p.desc;document.getElementById('pImage').value='';document.getElementById('productFormTitle').textContent='Edit product';document.getElementById('imageStatus').textContent=p.image?'Current image will be kept unless you choose a new one.':'No current image.';document.getElementById('productForm').scrollIntoView({behavior:'smooth'})}
+function resetProductForm(){document.getElementById('productForm').reset();document.getElementById('editId').value='';document.getElementById('pCost').value=0;document.getElementById('pStock').value=1;document.getElementById('productFormTitle').textContent='Add a product';document.getElementById('imageStatus').textContent=''}
+function deleteProduct(id){const p=db.products.find(x=>x.id===id);if(!p)return;if(!confirm('Delete "'+p.title+'"? Existing order records will remain.'))return;db.products=db.products.filter(x=>x.id!==id);persist();renderSeller();renderProducts()}
+function saveSettings(){db.settings={wa:document.getElementById('waNumber').value.replace(/\D/g,''),name:document.getElementById('storeName').value.trim()||"Aryan's Market"};persist();alert('Store settings saved.')}
+function renderOrders(){const root=document.getElementById('ordersList'),filter=document.getElementById('orderFilter').value;const list=db.orders.filter(o=>filter==='all'||o.status===filter);if(!list.length){root.innerHTML='<div class="empty">No order requests in this view yet. Customer requests will appear here.</div>';return}root.innerHTML=list.map(o=>`<div class="order-card"><div class="order-top"><div><strong>${esc(o.id)} · ${esc(o.title)}</strong><div class="tiny muted">${new Date(o.created).toLocaleString('en-IN')}</div></div><div><span class="pill">${esc(o.status)}</span><div style="font-weight:750;margin-top:5px">${money(o.price*o.qty)}</div></div></div><p class="tiny" style="margin:10px 0 4px">Qty: ${o.qty} · Cost recorded: ${money(o.cost*o.qty)} · Note: ${esc(o.customerNote||'None')}</p><div class="toolbar"><label style="margin:0;min-width:140px">Status<select onchange="changeStatus('${o.id}',this.value)" style="margin-top:4px">${['New','Confirmed','Shipped','Completed','Cancelled'].map(s=>`<option ${o.status===s?'selected':''}>${s}</option>`).join('')}</select></label><label style="margin:0;min-width:150px">Other cost for this order (₹)<input type="number" min="0" step="0.01" value="${Number(o.otherCost)||0}" onchange="changeOrderCost('${o.id}',this.value)" style="margin-top:4px"></label><button class="secondary small" onclick="copyOrder('${o.id}')">Copy details</button><button class="danger small" onclick="deleteOrder('${o.id}')">Delete</button></div></div>`).join('')}
+function changeStatus(id,status){const o=db.orders.find(x=>x.id===id);if(o){o.status=status;persist();renderSeller()}}
+function changeOrderCost(id,val){const o=db.orders.find(x=>x.id===id);if(o){o.otherCost=Math.max(0,Number(val)||0);persist();updateStats()}}
+function copyOrder(id){const o=db.orders.find(x=>x.id===id);if(!o)return;const text=`${o.id}\n${o.title}\nQuantity: ${o.qty}\nPrice: ${money(o.price)} each\nItem total: ${money(o.price*o.qty)}\nStatus: ${o.status}\nNote: ${o.customerNote||'None'}`;if(navigator.clipboard?.writeText)navigator.clipboard.writeText(text).then(()=>alert('Order details copied.')).catch(()=>prompt('Copy order details:',text));else prompt('Copy order details:',text)}
+function deleteOrder(id){if(!confirm('Delete this order record?'))return;db.orders=db.orders.filter(o=>o.id!==id);persist();renderSeller()}
+function updateStats(){const completed=db.orders.filter(o=>o.status==='Completed');const sales=completed.reduce((s,o)=>s+o.price*o.qty,0),costs=completed.reduce((s,o)=>s+o.cost*o.qty,0),other=(Number(db.expenses)||0)+completed.reduce((s,o)=>s+(Number(o.otherCost)||0),0),profit=sales-costs-other;document.getElementById('statProducts').textContent=db.products.length;document.getElementById('statOrders').textContent=db.orders.filter(o=>o.status!=='Cancelled').length;document.getElementById('statSales').textContent=money(sales);document.getElementById('statProfit').textContent=money(profit);document.getElementById('profitSales').textContent=money(sales);document.getElementById('profitCosts').textContent=money(costs);document.getElementById('profitExpenses').textContent=money(other);document.getElementById('profitNet').textContent=money(profit)}
+function saveExpenses(){db.expenses=Math.max(0,Number(document.getElementById('extraCosts').value)||0);persist();updateStats();alert('Expenses saved.')}
+function exportData(){const blob=new Blob([JSON.stringify(db,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='aryans-market-backup.json';a.click();URL.revokeObjectURL(a.href);document.getElementById('backupStatus').textContent='Backup exported. Store it somewhere private.'}
+function importData(e){const file=e.target.files[0];if(!file)return;const r=new FileReader();r.onload=()=>{try{const x=JSON.parse(r.result);if(!Array.isArray(x.products)||!Array.isArray(x.orders)||!x.settings)throw Error();if(!confirm('Import will replace the current browser data. Export a backup first. Continue?'))return;db={products:x.products,orders:x.orders,settings:x.settings,expenses:Number(x.expenses)||0,nextOrder:Number(x.nextOrder)||1};if(persist()){document.getElementById('backupStatus').textContent='Backup imported.';renderSeller();renderProducts();document.getElementById('waNumber').value=db.settings.wa||'';document.getElementById('storeName').value=db.settings.name||"Aryan's Market"}}catch(err){alert('That backup file is not valid for Aryan’s Market.')}};r.readAsText(file);e.target.value=''}
+document.getElementById('storeName').value=db.settings.name||"Aryan's Market";
+renderProducts();
+</script>
+</body>
+</html>
